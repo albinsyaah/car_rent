@@ -66,9 +66,8 @@ gvm use go1.20.5 --default; cd ~/code/kai-ta-mobile-backend; git fetch origin; g
 
 ## For Windows via Docker
 
-1. configure the env files. embeds/params/local/machinery.toml
-                                                postgres.toml
-                                                chace.toml
+1. configure the env files. embeds/params/local/machinery.toml, postgres.toml, chace.toml
 
 ```bash
-docker compose up --build #run and build container
+#run and build container
+docker compose up --build 
